@@ -61,12 +61,16 @@ body {
 }
 
 .stack {
-    width: 90%;
+    margin: 5px;
+    padding-top:3px;
+    border: 2px solid var(--clr-dark);
+    border-radius: 8px;
 }
 
 .stack_title {
     display:flex;
     align-items: center;
+    margin-left:10px;
 }
 
 .stack--button {
@@ -74,9 +78,18 @@ body {
     background-color: var(--clr-light);
     border: none;
     margin-left: auto;
+    margin-right: 10px;
 }
 
 .stack a {
     text-decoration: none;
     color: inherit;
+}
+
+.stack h2 {
+    margin:0;
+}
+
+.stack .total {
+    margin-left:20px;
 }

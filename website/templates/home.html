@@ -11,9 +11,16 @@
     <div class="stack">
         <div class="stack_title">
             <h2>Title</h2>
-            <button class="stack--button"><a href="">-</a></button>
+            <button type="button" class="stack--button close" onclick="">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
-        <div class="graph"></div>
+        <div class="total">
+            <p>Total hours: </p>
+        </div>
+        <div class="graph">
+
+        </div>
     </div>
 </section>
 {% endblock %}
